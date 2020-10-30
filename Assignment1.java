@@ -60,7 +60,7 @@ class Assignment1{
             }
             primeCounter = 0;
         }
-        System.out.println("The prime number is "+(startX));
+        System.out.print("The prime number is "+(startX));
     }
     // 4. WAP to print table of x starting from 1 to y.
     public static void multiplierTable(){
@@ -154,7 +154,7 @@ class Assignment1{
                     System.out.println("Fahrenheit temperature is "+(((9*temp)/5)+32));
                     break;
 
-            default: System.out.println("Invalid option");
+            default: System.out.print("Invalid option");
                     break;
         }
     }
@@ -187,7 +187,7 @@ class Assignment1{
         if(number%2==0){
             System.out.println("The number "+number+" is even");
         }else{
-            System.out.println("The number "+number+" is odd");
+            System.out.print("The number "+number+" is odd");
         }
     }
     // 11. WAP to find a given no is palindrome or not
